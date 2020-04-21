@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name         = 'Networking@Kocsistem'
-s.version      = '3.5.9'
+s.version      = '3.5.10'
 s.summary      = 'KocSistem network framework'
 s.description  = 'A description of Networking Library'
 s.homepage     = 'https://dev.azure.com/oneframemobile/OneFrameIOS/_wiki/wikis/OneFrameIOS.wiki/11/Networking'
@@ -22,9 +22,9 @@ s.ios.deployment_target = '9.0'
 s.source       = { :http => 'https://raw.githubusercontent.com/oneframemobile/networking-ios/master/NetworkingV1.zip'}
 
 #s.exclude_files = "Classes/Exclude"
-#s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
+s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
 
-#s.swift_version  = '4.2'
+s.swift_version  = '4.2'
 #s.frameworks = 'UIKit'
 
 s.ios.vendored_frameworks  = 'Networking.framework'
