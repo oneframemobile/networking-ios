@@ -19,7 +19,7 @@ s.platform     = :ios
 
 s.ios.deployment_target = '9.0'
 
-s.source       = { :http => 'https://raw.githubusercontent.com/oneframemobile/networking-ios/master/NetworkingV1.zip'}
+s.source       = { :http => 'https://raw.githubusercontent.com/oneframemobile/networking-ios/master/Networking.zip'}
 
 #s.exclude_files = "Classes/Exclude"
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4' }
