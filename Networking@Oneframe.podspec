@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-s.name         = 'Networking@Kocsistem'
+s.name         = 'Networking@Oneframe'
 s.version      = '3.5.10'
 s.summary      = 'KocSistem network framework'
 s.description  = 'A description of Networking Library'
